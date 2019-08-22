@@ -1,12 +1,12 @@
 import React from 'react';
 
 const BookTitle = (props) => {
-  return <div>{props.title}</div>
+  return <div>{props.children}</div>
 };
 
 const Book = (props) => {
   return (<div>
-    <BookTitle title = {props.title}/>
+    <BookTitle>{props.title}</BookTitle>
     </div>
 )
 };
