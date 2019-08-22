@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Book from './Book';
+import BookList from './BookList';
 
 ReactDOM.render(
     <div>
-        <Book title="Avatar"/>
-        <Book title="Csipike"/>
-        <Book title="Micimacko"/>
+        <BookList/>
     </div>,
     document.getElementById('root')
 );
