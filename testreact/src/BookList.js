@@ -7,6 +7,23 @@ class BookList extends Component{
         console.log(1)
     }
 
+    state = {
+      books: [
+          {
+              title: 'Avatar',
+              isbn: 'abc123'
+          },
+          {
+              title:'Star Wars',
+              isbn:'abc456'
+          },
+          {
+              title: 'Peaceful',
+              isbn: 'abc789'
+          }
+      ]
+    }
+
     componentWillMount() {
         console.log(2);
     }
@@ -18,7 +35,11 @@ class BookList extends Component{
     render() {
         console.log(3);
         return (
-            <div>Book List</div>
+            <div>
+            {this.state.books.map( (book, index) => {
+               return <div key = {index}>{book.title}</div>
+            }) }
+            </div>
     );
     }
 
