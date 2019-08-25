@@ -4,9 +4,23 @@ import React, { Component } from 'react';
 
 class Book extends  Component {
 
-    onClickHandler = () => {
-      console.log('../')
+    state = {
+        a1: true,
+        a2: [],
+        selected: null
     };
+
+    onClickHandler = () => {
+      this.setState({
+        selected: 'title'
+      }, () => {
+         console.log(this.state.selected)
+      });
+    };
+
+    onClickHandler2() {
+        console.log('../')
+    }
 
  render() {
         const {title, isbn} = this.props.book;
