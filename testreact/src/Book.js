@@ -4,18 +4,17 @@ import React, { Component } from 'react';
 
 class Book extends  Component {
 
-    constructor(props) {
-        super(props)
-        console.log(this.props.book);
-    }
+    onClickHandler = () => {
+      console.log('../')
+    };
 
  render() {
         const {title, isbn} = this.props.book;
 
    return(
         <div>
-            <h2>{this.props.book.title}</h2>
-            <p>{this.props.book.isbn}</p>
+            <h2 onClick={this.onClickHandler}>{title}</h2>
+            <p>{isbn}</p>
         </div>
    )
  }
