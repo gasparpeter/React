@@ -10,24 +10,22 @@ class Book extends  Component {
         selected: null
     };
 
-    onClickHandler = () => {
+    onClickHandler = (title) => {
       this.setState({
-        selected: 'title'
+        selected: title
       }, () => {
          console.log(this.state.selected)
       });
     };
 
-    onClickHandler2() {
-        console.log('../')
-    }
+
 
  render() {
         const {title, isbn} = this.props.book;
 
    return(
         <div>
-            <h2 onClick={this.onClickHandler}>{title}</h2>
+            <h2 onClick={ () => this.onClickHandler(title)}>{title}</h2>
             <p>{isbn}</p>
         </div>
    )
