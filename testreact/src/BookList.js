@@ -32,6 +32,14 @@ class BookList extends Component{
 
     componentDidMount() {
         console.log(4);
+
+        setTimeout(() => {
+            this.setState({
+                books: [...this.state.books, {title: 'Egri csillagok', isbn: 'ert987'}]
+            })
+        }, 2000);
+
+
     }
 
     render() {

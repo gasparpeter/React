@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6991b047-dfe0-416a-ab1e-9331295d8ea7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/testreact/src/Book.js" beforeDir="false" afterPath="$PROJECT_DIR$/testreact/src/Book.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testreact/src/BookTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/testreact/src/BookTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testreact/src/BookList.js" beforeDir="false" afterPath="$PROJECT_DIR$/testreact/src/BookList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookList.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BookList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testreact/src/BookList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
+            <state relative-caret-position="204">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -60,17 +59,17 @@
       <file leaf-file-name="Book.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testreact/src/Book.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="476">
               <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookTitle.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BookTitle.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testreact/src/BookTitle.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -87,9 +86,9 @@
         <option value="$PROJECT_DIR$/testreact/src/.gitignore" />
         <option value="$PROJECT_DIR$/testreact/.gitignore" />
         <option value="$PROJECT_DIR$/testreact/src/index.js" />
-        <option value="$PROJECT_DIR$/testreact/src/BookList.js" />
         <option value="$PROJECT_DIR$/testreact/src/Book.js" />
         <option value="$PROJECT_DIR$/testreact/src/BookTitle.js" />
+        <option value="$PROJECT_DIR$/testreact/src/BookList.js" />
       </list>
     </option>
   </component>
@@ -190,23 +189,25 @@
       <workItem from="1566744726505" duration="1738000" />
       <workItem from="1566746535030" duration="2027000" />
       <workItem from="1566827405706" duration="1843000" />
+      <workItem from="1566829273321" duration="556000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18187000" />
+    <option name="totallyTimeSpent" value="18743000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14387918" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14387918" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32570422" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32570422" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,19 +465,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testreact/src/BookList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="71" selection-start-line="40" selection-start-column="71" selection-end-line="40" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testreact/src/Book.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="476">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
         </state>
       </provider>
@@ -484,7 +475,17 @@
     <entry file="file://$PROJECT_DIR$/testreact/src/BookTitle.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="30" lean-forward="true" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testreact/src/BookList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
