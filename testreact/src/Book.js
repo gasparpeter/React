@@ -10,7 +10,7 @@ class Book extends  Component {
         selected: null
     };
 
-    onClickHandler = (title) => () => {
+    onClickHandler = (title) => (event) => {
       this.setState({
         selected: title
       }, () => {
@@ -25,7 +25,8 @@ class Book extends  Component {
 
    return(
         <div>
-            <BookTitle title={title} />
+            <BookTitle title={title} onClickFunc =
+            {this.onClickHandler} />
             <p>{isbn}</p>
         </div>
    )
