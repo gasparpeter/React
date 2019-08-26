@@ -39,6 +39,12 @@ class BookList extends Component{
             })
         }, 2000);
 
+        setTimeout(()=> {
+        this.setState({
+            books: this.state.books.map(book => ( ( book.title === 'Avatar' ) ? ({...book, title:
+                    'A lany het nevvel'}) : ({...book}) ) )
+        });
+    }, 4000)
 
     }
 

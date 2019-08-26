@@ -7,7 +7,8 @@ class Book extends  Component {
     state = {
         a1: true,
         a2: [],
-        selected: null
+        selected: null,
+        title: this.props.book.title
     };
 
     onClickHandler = (title) => (event) => {
