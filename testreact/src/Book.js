@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import BookList from "./BookList";
-
+import BookTitle from './BookTitle';
 
 class Book extends  Component {
 
@@ -10,7 +10,7 @@ class Book extends  Component {
         selected: null
     };
 
-    onClickHandler = (title) => {
+    onClickHandler = (title) => () => {
       this.setState({
         selected: title
       }, () => {
@@ -25,11 +25,11 @@ class Book extends  Component {
 
    return(
         <div>
-            <h2 onClick={ () => this.onClickHandler(title)}>{title}</h2>
+            <BookTitle title={title} />
             <p>{isbn}</p>
         </div>
    )
  }
-};
+}
 
 export default Book;
