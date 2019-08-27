@@ -19,9 +19,13 @@ class Book extends  Component {
       });
     };
 
+componentWillReceiveProps(nextProps) {
+    this.setState({
+        title: nextProps.book.title
+    })
+}
 
-
- render() {
+    render() {
         const {title, isbn} = this.props.book;
 
    return(
